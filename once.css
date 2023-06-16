@@ -1,0 +1,163 @@
+
+  html{scroll-behavior: smooth;}
+
+body {
+  margin: 0;
+}
+
+
+.header {
+  background-color:#C70039 ;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer {
+  background-color: #C70039;
+  padding: 10px;
+  text-align: center;
+}
+.h1
+{
+color:white;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #C70039 ;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: orange;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Contact */
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: orange;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+/* FeedBack */
+
+h2 {
+ margin-bottom: 20px;
+ color: #474E69;
+}
+
+input, textarea {
+ padding: 10px;
+ border: 1px solid #E5E5E5;
+ width: 200px;
+ color: #999999;
+ box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+ -moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+ -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;  
+}
+
+textarea {
+ width: 400px;
+ height: 150px;
+ max-width: 400px;
+ line-height: 18px;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+ border-color: 1px solid #C9C9C9;
+ box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+ -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+ -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px; 
+}
+
+.form label {
+ margin-left: 10px;
+ color: #999999;
+}
+
+.submit input {
+ width: 100px; 
+ height: 40px;
+ background-color: #474E69; 
+ color: #FFF;
+ border-radius: 3px;
+ -moz-border-radius: 3px;
+ -webkit-border-radius: 3px;  
+}
